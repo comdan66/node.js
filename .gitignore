@@ -1,0 +1,11 @@
+.DS_Store
+sftp-config*
+
+package-lock.json
+node_modules/*
+npm-debug.log
+
+cmd/package-lock.json
+cmd/.sass-cache/*
+cmd/node_modules/*
+cmd/npm-debug.log
