@@ -1,0 +1,146 @@
+<h1>設定 Xcode 與基礎環境</h1>
+<h2>App Store</h2>
+<ul>
+<li><p>重新設定國籍</p></li>
+<li><p>下載安裝 Xcode - <a href="https://itunes.apple.com/tw/app/xcode/id497799835?mt=12">https://itunes.apple.com/tw/app/xcode/id497799835?mt=12</a></p></li>
+<li><p>下載安裝 Line - <a href="https://itunes.apple.com/tw/app/line/id539883307?mt=12">https://itunes.apple.com/tw/app/line/id539883307?mt=12</a></p></li>
+<li><p>下載安裝 LunarCal - <a href="https://itunes.apple.com/tw/app/lunarcal/id459976036?mt=12">https://itunes.apple.com/tw/app/lunarcal/id459976036?mt=12</a></p>
+<ul>
+<li>基本選項</li>
+<li>在登入時自動開啟 <code>勾選</code> </li>
+<li>游標停滯時自動滑出 <code>取消勾選</code> </li>
+<li>游標離開時自動關閉 <code>取消勾選</code> </li>
+<li>地區改為 <code>台灣</code></li>
+<li>顯示日期與時間 <code>取消勾選</code></li></ul></li>
+<li><p>下載安裝 Sip(Apple Store 已無販售)</p>
+<ul>
+<li>下拉點選齒輪</li>
+<li>General<ul>
+<li>Number of colors in color history <code>取消勾選</code></li></ul></li>
+<li>Formats<ul>
+<li>CSS 將 All caps <code>取消勾選</code></li>
+<li>將不必要的類型 <code>取消勾選</code></li></ul></li>
+<li>Shortcuts<ul>
+<li>只留 <code>General</code> 的 <code>Show Magnifier</code>，並且設定快捷鍵為 <code>command + shift + e</code></li></ul></li></ul></li>
+</ul>
+<h2>建立截圖位置</h2>
+<ul>
+<li>終端機執行指令 <code>cd ~/Pictures</code></li>
+<li>終端機執行指令 <code>mkdir 截圖</code></li>
+<li>終端機執行指令 <code>defaults write com.apple.screencapture location ~/Pictures/截圖</code></li>
+</ul>
+<h2>建立 www 資料夾</h2>
+<ul>
+<li>終端機執行指令 <code>cd ~</code></li>
+<li>終端機執行指令 <code>mkdir www</code></li>
+<li>終端機執行指令 <code>chmod 777 www</code></li>
+</ul>
+<h2>Finder 設定</h2>
+<ul>
+<li><p>上方 <code>顯示方式</code></p>
+<ul>
+<li>開啟 <code>顯示標籤列</code></li>
+<li>開啟 <code>顯示狀態列</code></li>
+<li>開啟 <code>顯示路徑列</code></li></ul></li>
+<li><p>選用直欄顯示，用快捷鍵 <code>command + 3</code></p></li>
+<li><p>直欄設定快捷鍵 <code>command + j</code></p>
+<ul>
+<li>文字大小 <code>16</code></li></ul></li>
+<li><p><code>偏好設定</code>，快捷鍵 <code>command + ,</code></p>
+<ul>
+<li>一般</li>
+<li>開啟新 Finder 視窗時顯示，改為 <code>www</code></li>
+<li>進階</li>
+<li>執行搜尋時，改為 <code>搜尋目前的檔案夾</code></li></ul></li>
+<li><p>左邊側邊欄順序</p>
+<ul>
+<li>Home</li>
+<li>AirDrop</li>
+<li>應用程式</li>
+<li>文件</li>
+<li>圖片</li>
+<li>下載項目</li>
+<li>截圖</li>
+<li>www</li></ul></li>
+<li><p>下方 Dock</p>
+<ul>
+<li><code>下載項目</code> &gt; <code>右鍵</code> &gt; <code>檢視內容方式</code> &gt; <code>格狀</code></li></ul></li>
+</ul>
+<h2>系統偏好設定</h2>
+<ul>
+<li>一般<ul>
+<li><code>勾選</code> 使用暗色選單列和 Dock</li>
+<li>側邊欄圖像大小 <code>大</code></li>
+<li>最近使用過的項目 <code>無</code></li></ul></li>
+<li>Dock<ul>
+<li>大小拉到約 <code>五分之一</code></li>
+<li><code>勾選</code> 放大，並且拉到 <code>最大</code></li>
+<li><code>勾選</code> 自動隱藏顯示 Dock</li></ul></li>
+<li>Mission Control<ul>
+<li>鍵盤和滑鼠快捷鍵全部取消</li></ul></li>
+<li>Spolight<ul>
+<li>全部 <code>取消勾選</code></li></ul></li>
+<li>通知<ul>
+<li><code>勿擾模式</code> 當顯示器進入睡眠時 <code>勾選</code></li></ul></li>
+<li>鍵盤<ul>
+<li>鍵盤</li>
+<li>按鍵重複，<code>快</code></li>
+<li>重複前暫延，<code>短</code></li>
+<li>快速鍵</li>
+<li><code>Launchapp 與 Dock</code><ul>
+<li>啟用/停用隱藏 Dock <code>取消勾選</code></li>
+<li>顯示 Launchapp 設定為 <code>F4</code></li></ul></li>
+<li><code>螢幕快照</code> &gt; <code>拷貝所選區域的圖片至剪貼簿</code> &gt; 改為 <code>command + shift + 5</code></li>
+<li><code>Spolight</code> &gt; 全部 <code>取消勾選</code></li>
+<li><code>輔助說明</code> &gt; 全部 <code>取消勾選</code></li>
+<li><code>App 快速鍵</code><ul>
+<li>按 <code>+</code> &gt; 應用程式選 <code>Finder</code> &gt; 選單名稱輸入 <code>顯示上一個頁籤</code>，鍵盤快捷鍵設定 <code>command + option + ←</code></li>
+<li>按 <code>+</code> &gt; 應用程式選 <code>Finder</code> &gt; 選單名稱輸入 <code>顯示下一個頁籤</code>，鍵盤快捷鍵設定 <code>command + option + →</code></li></ul></li></ul></li>
+<li>滑鼠<ul>
+<li>捲動方向 <code>取消勾選</code></li>
+<li>軌跡速度 <code>第四線</code></li>
+<li>捲動速度 <code>第五線</code></li>
+<li>按兩下的速度 <code>倒數第三線</code></li></ul></li>
+<li>觸碰式軌跡版<ul>
+<li>點按</li>
+<li>除了 <code>靜音點按</code> 其他都 <code>勾選</code></li>
+<li><code>按一下</code> 拉到 <code>輕微</code></li>
+<li><code>軌跡速度</code> 拉到 <code>倒數第四線</code></li>
+<li>捲動與縮放</li>
+<li>只勾選 <code>放大或縮小</code></li>
+<li>更多手勢</li>
+<li>只勾選 <code>在頁面之間滑動</code></li></ul></li>
+<li>iCloud<ul>
+<li>iCloud Driver 取消</li>
+<li>照片 取消</li>
+<li>郵件 取消</li>
+<li>聯絡資訊 <code>勾選</code></li>
+<li>行事曆 <code>勾選</code></li>
+<li>提醒事項 <code>勾選</code></li>
+<li>Safari 取消</li>
+<li>備忘錄 <code>勾選</code></li>
+<li>Siri 取消</li>
+<li>鑰匙圈 <code>勾選</code></li>
+<li>返回我的 Mac 取消</li>
+<li>尋找我的 Mac <code>勾選</code></li></ul></li>
+<li>藍芽<ul>
+<li>在選單列中顯示藍芽 <code>勾選</code></li></ul></li>
+<li>共享<ul>
+<li>修改電腦名稱</li></ul></li>
+<li>日期與時間<ul>
+<li>時鐘</li>
+<li>選擇 <code>數字</code></li>
+<li>除了 <code>使用 24 小時制</code> 其他都 <code>勾選</code></li>
+<li>語音報時 <code>取消勾選</code></li></ul></li>
+<li>輔助說明<ul>
+<li>滑鼠與觸控式軌跡板</li>
+<li><code>觸控式軌跡板選項</code> &gt; <code>啟用拖移</code> &gt; <code>三指</code></li></ul></li>
+</ul>
+<h2>顯示隱藏檔案</h2>
+<ul>
+<li>終端機執行指令 <code>defaults write com.apple.finder AppleShowAllFiles TRUE;\killall Finder</code></li>
+</ul>
+<h2>關閉按住輸入重音字元</h2>
+<ul>
+<li>終端機執行指令 <code>defaults write -g ApplePressAndHoldEnabled -bool false</code></li>
+</ul>
